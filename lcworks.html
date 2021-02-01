@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="lcworks.css">
+
+    <title>Works</title>
+</head>
+<body>
+    <div class="header">
+        <div class="title"><a href="body.html">Liam's portfolio</a></div>
+        <div class="menubutton" onclick="toggle()">
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+        <div class="menu">
+            <ul>
+            <li><a href="lcprofile.html">Profile</a></li>
+            <li><a href="lcskillsstrategy.html">Skills&Strategy</a></li>
+            <li><a href="lcworks.html">Works</a></li>
+            <li><a href="lccontact.html">Contact</a></li>
+            </ul>
+            </div>
+    </div>
+
+    <div class="works-wrapper">
+        <h1>Skills</h1>
+        <div class="icon works1" >
+            <img src="blackicon.png" width="90" height="90" alt="">
+            <h3>シェアハウス診断</h3>
+            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+        </div>
+        <div class="icon works2">
+            <img src="blackicon.png" width="90" height="90" alt="">
+            <h3>ブログ</h3>
+            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+        </div>
+        <div class="icon works3">
+            <img src="blackicon.png" width="90" height="90" alt="">
+            <h3>カレンダー</h3>
+            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+        </div>
+    </div>
+
+    <script>
+        function toggle() {
+        document.querySelector('.menubutton').classList.toggle('open');
+        document.querySelector('.menu').classList.toggle('open');
+        }
+    </script>
+</body>
+</html>
