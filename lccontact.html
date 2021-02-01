@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lccontact.css">
+    <link rel="stylesheet" href="body.css">
+    <!-- CSS only -->
+    <title>Contact</title>
+</head>
+<body>
+    <div class="header">
+        <div class="title"><a href="body.html">Liam's portfolio</a></div>
+    </div>
+    <div class="menubutton" onclick="toggle()">
+        <i></i>
+        <i></i>
+        <i></i>
+    </div>
+    <div class="menu">
+        <ul>
+        <li><a href="lcprofile.html">Profile</a></li>
+        <li><a href="lcskillsstrategy.html">Skills&Strategy</a></li>
+        <li><a href="lcworks.html">Works</a></li>
+        <li><a href="lccontact.html">Contact</a></li>
+        </ul>
+        </div>
+    <div class="main-contact-wrapper">
+        <div class="contact-wrapper">
+        <h1>Contact</h1>
+        <p>Email : iamlcurrivan@yahoo.co.jp
+        <br>TEL : 080-3355-7853
+        </p>
+        </div>
+        <iframe class="form" src="https://docs.google.com/forms/d/e/1FAIpQLSevkanW4BZS42Xs0HFBN-Ms7tJOTwyI573Fcb9s11FGPcfx2Q/viewform?embedded=true" width="500" height="700" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>        <script>
+            function toggle() {
+            document.querySelector('.menubutton').classList.toggle('open');
+            document.querySelector('.menu').classList.toggle('open');
+            }
+        </script>
+        
+</body>
+</html>
