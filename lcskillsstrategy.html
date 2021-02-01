@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="lcskillsstrategy.css">
+
+    <title>Skills&Strategy</title>
+</head>
+<body>
+    <div class="header">
+        <div class="title"><a href="body.html">Liam's portfolio</a></div>
+        <div class="menubutton" onclick="toggle()">
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+        <div class="menu">
+            <ul>
+            <li><a href="lcprofile.html">Profile</a></li>
+            <li><a href="lcskillsstrategy.html">Skills&Strategy</a></li>
+            <li><a href="lcworks.html">Works</a></li>
+            <li><a href="lccontact.html">Contact</a></li>
+            </ul>
+            </div>
+    </div>
+    
+    <div class="skills">
+        <h1>Skills</h1>
+        <p><strong>HTML・CSS</strong>：レスポンシブデザイン、フレックスボックス、Bootstrapの基礎まで。身体で覚える為にWEBページ等を沢山作っていく予定。
+        <br>
+        <br><strong>JavaScript</strong>：Progateがまもなく完了予定。更に応用が利く基礎力をつけるために参考書を購入しました。
+        <br>
+        <br><strong>Python</strong>：Progateで学習、ネットに上がっている簡単な問題を解いてました。（身長多重を入れたらBMIを返すなど）
+        <br>
+        <br><strong>英語</strong>：ネイティブレベル</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="strategy">
+        <h1>Strategy</h1>
+        <p>◆目標：
+        <br>①<span>プログラミング言語</span>や<span>フレームワーク</span>の学習スピードを上げる
+        <br>②<span>エンジニア的思考</span>を身に着ける（保守性意識やロジカルシンキングなど）
+        <br>
+        <br>・ProgateのJavaScript､SQL、Node.jsをやり、
+        <br>「確かな力が身につくJavaScript「超」入門」を完了【～2月末】
+        <br>・自作のWEBアプリケーションを作成し、公開予定。
+        <br>（カレンダー型のSNS）【～4月末】
+        <br>※同時並行でIT用語などの知識も読書を通じて付けていく
+        <br>実装したい機能
+        <br>＊つぶやき機能
+        <br>＊つぶやきの予約（日時指定）
+        <br>＊ログイン画面
+        <br>＊日ごとのつぶやきを選択し、表示させる
+        <br>＊フォロー機能
+            </p>
+    </div>
+
+    <script>
+        function toggle() {
+        document.querySelector('.menubutton').classList.toggle('open');
+        document.querySelector('.menu').classList.toggle('open');
+        }
+    </script>
+</body>
+</html>
