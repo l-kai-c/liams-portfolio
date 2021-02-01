@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="body.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <title>Liam's portfolio</title>
+</head>
+<body>
+    <div class="header">
+        <div class="title">Liam's portfolio</div>
+        <div class="menubutton" onclick="toggle()">
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+        <div class="menu">
+            <ul>
+            <li><a href="lcprofile.html">Profile</a></li>
+            <li><a href="lcskillsstrategy.html">Skills&Strategy</a></li>
+            <li><a href="lcworks.html">Works</a></li>
+            <li><a href="lccontact.html">Contact</a></li>
+            </ul>
+            </div>
+    </div>
+    <div class="main">
+        <div class="greetings">
+            <h1>Welcome to Liam's Portfolio!!!</h1>
+        </div>
+        <div class="portfolio-wrapper">
+        <div class="links profile-wrapper">
+            <i class="fas fa-user-circle"></i>
+            <h2 class="profile"><a class="fontc" href="lcprofile.html">Profile</a></h2>
+        </div>
+        <div class="links skillsstrategy-wrapper">
+            <i class="fas fa-chess"></i>
+            <h2 class="skillsstrategy"><a class="fontc" href="lcskillsstrategy.html">Skills&Strategy</a></h2>
+        </div>
+        <div class="links works-wrapper">
+            <i class="fas fa-laptop-code"></i>
+            <h2 class="profile"><a class="fontc" href="lcworks.html">Works</a></h2>
+        </div>
+        <div class="links contact-wrapper">
+            <i class="fas fa-phone"></i>
+            <h2 class="contact"><a class="fontc" href="lccontact.html">Contact</a></h2>
+        </div>
+        </div>
+    
+
+    </div>
+    
+    
+    <script>
+        function toggle() {
+        document.querySelector('.menubutton').classList.toggle('open');
+        document.querySelector('.menu').classList.toggle('open');
+        }
+    </script>
+</body>        
+</html>
