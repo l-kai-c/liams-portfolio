@@ -3,6 +3,7 @@
     font-family: 'Book Antiqua';
 }
 
+
 body{
     background-color: white;
     height: 500px;
@@ -152,13 +153,7 @@ a:hover{
     padding-top: 60px;
 }
 
-@media screen and (max-width:670px){
-    .links{
-        width: 50%;
-        padding: 20px;
-        text-align: center;
-    }
-}
+
 
 .portfolio-wrapper{
     height: 300px;
@@ -196,6 +191,66 @@ a:hover{
     font-size: 20px;
     line-height: 40px;
     text-align: center  ;
+}
+
+
+@media screen and (max-width:670px){
+    body{
+        background-color: white;
+        margin: 0px;
+        height: 900px;
+        scroll-behavior: smooth;
+    }
+
+    .header{
+        height: 60px;
+        background-color: black;
+        box-sizing: border-box;
+        color: white;
+        width: 100%;
+        position: fixed;
+    }
+    
+    .header a{
+        color: white;
+    }
+    .main{
+        height: 900px;
+        background-color:antiquewhite;
+        padding-top: 60px;
+        margin: 0 auto;
+    }
+    .portfolio-wrapper{
+        height:650px;
+        width: 100%;
+        text-align: center  ;
+    }
+
+    .fas{
+        font-size : 150px;
+    }
+
+    .links{
+        float: right;
+        padding: 20px;
+        text-align: center;
+        width: 50%;
+    }
+
+    
+    
+    .fontc{
+        
+        color: black;
+        background-color: skyblue   ;
+        border-radius: 2px;
+        padding: 5px;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        
+    }
+    
 }
 
 
